@@ -8,7 +8,7 @@ def primos_gemelos(rango):
     pg=False
     for i in range(3,rango,2):
         p=True
-        for x in range(2,int(i**0.5)+1):
+        for x in range(3,int(i**0.5)+1,2):
             if i%x==0:
                 p=False
                 break
