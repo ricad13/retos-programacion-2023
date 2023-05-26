@@ -1,7 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-
 
 def primos_gemelos(rango):
     resul=[]
